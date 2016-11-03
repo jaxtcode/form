@@ -1,0 +1,97 @@
+body {
+	background-color: dodgerblue;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+	height: 35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: dimgrey;
+	font-weight: 400;
+}
+
+.analogseaform fieldset {
+	height: 400px;
+	width: 400px;
+	padding: 40px;
+	background-color: white;
+	border: 0px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.analogseaform input {
+	border: 2px solid lightgrey;
+    border-radius: 4px;
+	width: 320px;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.analogseaform input:invalid {
+  	border: 3px red solid;
+}
+
+.analogseaform input::-webkit-input-placeholder { 
+  color: grey;
+  font-size: 17px;
+}
+
+.analogseaform label {
+	font-weight: 500;
+	margin-left: 23px;
+}
+
+.analogseaform button {
+	height: 55px;
+	width: 357px;
+	border: 2px solid lightgrey;
+    border-radius: 4px;
+    color: white !Important;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: limegreen;
+    display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+.password {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	color: dimgrey;
+	font-size: 13px;
+}
+
+.login {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
